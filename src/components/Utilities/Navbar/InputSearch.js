@@ -14,8 +14,9 @@ const InputSearch = () => {
 
         // redirect ke halaman search dengan keyword yang diinput
         const keyword = searchRef.current.value;
-        router.push(`/search/${keyword}`);
-
+        if (keyword) {
+            router.push(`/search/${keyword}`);
+        }
     }
 
     const handleKeyDown = (event) => {
