@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <header className="bg-accent">
             <nav className="flex md:flex-row flex-col justify-between p-4 gap-2 md:items-center">
-                <Link href="/" className="font-bold text-2xl">Animepedia</Link>
+                <Link href="/" className="font-bold text-2xl">Animepedia 📖</Link>
                 <InputSearch />
             </nav>
         </header>
