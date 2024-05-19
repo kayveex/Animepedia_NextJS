@@ -6,7 +6,7 @@ import AnimeList from "@/components/AnimeList";
 import HeaderMenu from "@/components/Utilities/HeaderMenu";
 import Pagination from "@/components/Utilities/Pagination";
 import {React, useEffect, useState} from "react";
-import { getAnimeResponse } from "../libs/api-libs";
+import { getAnimeResponse } from "../../libs/api-libs";
 
 
 const Page = () => {
